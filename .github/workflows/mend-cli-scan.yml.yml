@@ -33,7 +33,7 @@ jobs:
 #      run: mvn clean install -DskipTests=true
 ##
 # The mend dep scan should be called AFTER a package manager build step such as "mvn clean install -DskipTests=true" or "npm install --only=prod"
-    - name: Mend CLI Scan
+    - name: Mend Unified Agent Scan
       env:
         WS_APIKEY: ${{secrets.APIKEY}}
         WS_USERKEY: ${{secrets.USERKEY}}
