@@ -45,3 +45,4 @@ jobs:
         mend dep -u
         echo Run Mend code scan
         mend code
+
